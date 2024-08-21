@@ -84,6 +84,7 @@ body {
   padding: 0.8rem 2rem;
   border-radius: 5rem;
   margin-left: 0.1rem;
+  border: none;
 }
 
 .btn:hover {
@@ -124,8 +125,30 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media(min-width: 700px) {
+@media(min-width: 806px) {
   .cards-wrapper {
     display: flex;
+  }
+
+  .each-card {
+    max-width: 18rem;
+    padding: 2.5rem;
+    line-height: 1.7;
+  }
+
+  .card-description {
+    margin: 0 0 5rem 0;
+  }
+
+  .card-sedan {
+    border-radius: 0.3rem 0 0 0.3rem;
+  }
+
+  .card-luxury {
+    border-radius: 0 0.3rem 0.3rem 0;
+  }
+
+  .btn {
+    
   }
 }
